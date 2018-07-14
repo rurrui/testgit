@@ -24,3 +24,18 @@ list.insert(1,'rurrui')
 print(list)
 list.pop(1)
 print(list)
+#if elif
+height=1.75
+weight=80.5
+bmi=weight/(height*height)
+print(bmi)
+if bmi<18.3:
+    print('very thin')
+elif bmi<25:
+    print('normal')
+elif bmi<28:
+    print("over noral")
+elif bmi<32:
+    print("obesity")
+else:
+    print("very obesity")
