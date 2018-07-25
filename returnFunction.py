@@ -10,3 +10,11 @@ f1()
 f2()
 f3()
 #闭包
+def a():
+    x=10
+    def b():
+        x+=1
+        print(x)
+    return b
+demo=a()
+demo()
