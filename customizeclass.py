@@ -21,4 +21,36 @@ for n in Fob():
     print(n)
 class Person(object):
     pass
-dir[Person]
+dir(Person)
+#  __getitem__()
+class Fib(object):
+  def __getitem__(self,n):
+    # 当n是一个int数字时，Fib执行取指定索引操作
+    if isinstance(n,int):
+      a , b = 1, 1
+      for x in range(n):
+        a, b = b, a+b
+      return a
+        # 当n是一个slice时，Fib会做切片操作
+    if isinstance(n,slice): 
+      start=n.start
+      stop=n.stop
+      if start is None:
+        start=0
+        L=[]
+        a,b=1,1
+        for x in range(stop):
+          if x>=start:
+            L.append(a)
+          a,b=b,a+b
+        return a
+f=Fib()
+print(f[3])
+# __call__
+class Car(object):
+    def __init__(self,name):
+        self.name=name
+    def __call__(self):
+        print('My name is %s' % self.name)
+c=Car('Benz')
+c()
