@@ -1,4 +1,5 @@
 # 断言
+'''
 def foo(s):
     n=int(s)
     assert n!=0,'n is zero'
@@ -6,3 +7,5 @@ def foo(s):
 def main():
     foo('0')
 main()
+'''
+# 
