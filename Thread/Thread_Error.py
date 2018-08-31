@@ -35,7 +35,4 @@ start2 = time.time()
 t3.start()
 t3.join()
 print('Single Thread time is %s' % str(time.time() - start2))
-# print(balance)
-# note
-# 由于两个线程使用了共享变量balance，多线程执行并非同时进而是切换执行所以
-# 导致balance计算会被两个线程争夺，从而导致balance最终计算结果不为0
+
