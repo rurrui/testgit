@@ -21,7 +21,21 @@ for n in ns:
 '''
 
 # takewhile使无限迭代器
+'''
 control_natuals=itertools.count(1)
 cns=itertools.takewhile(lambda x:x<=10,control_natuals)
 for n in cns:
     print(n)
+'''
+
+# groupby()把相邻的相同元素分组挑出来
+'''
+for key,group in itertools.groupby('AAABBBCCCDDD'):
+    print(key,list(group))
+'''
+# groupby()的作用函数,可以使upper使大小写忽略后对每个元素分组
+for key,group in itertools.groupby('AAaBbbCcc',lambda c: c.upper()):
+    print(key,list(group))
+
+def pi(N):
+    
