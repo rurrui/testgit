@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a41601b-b383-4ef9-b71e-762404613a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test007/Note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test007/city.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test007/city2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test007/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test007/hello2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test007/test01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test007/test02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test007/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test007/test02.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +14,7 @@
     <session id="437235781">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="3" />
@@ -48,7 +41,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="125" />
-          <entry key="py" value="6724" />
+          <entry key="py" value="6783" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
@@ -56,7 +49,7 @@
         <counts>
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="6724" />
+          <entry key="Python" value="6783" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -85,9 +78,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test007/test02.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,7 +97,7 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test007/Note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -180,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="522" />
     <option name="y" value="58" />
     <option name="width" value="2800" />
@@ -198,11 +195,6 @@
             <path>
               <item name="testgit" type="b2602c69:ProjectViewProjectNode" />
               <item name="testgit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testgit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testgit" type="462c0819:PsiDirectoryNode" />
-              <item name="test007" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,28 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test01">
-    <configuration name="Base64_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="testgit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Base64_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test02 (1)">
     <configuration name="hashlib_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="testgit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -316,6 +287,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testgit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test007" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test007/test02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="testgit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,19 +330,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Base64_test" />
       <item itemvalue="Python.hashlib_test" />
       <item itemvalue="Python.test01 (1)" />
       <item itemvalue="Python.test02" />
       <item itemvalue="Python.test01" />
+      <item itemvalue="Python.test02 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test02 (1)" />
         <item itemvalue="Python.test01" />
         <item itemvalue="Python.test02" />
         <item itemvalue="Python.test01 (1)" />
         <item itemvalue="Python.hashlib_test" />
-        <item itemvalue="Python.Base64_test" />
       </list>
     </recent_temporary>
   </component>
@@ -377,14 +369,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="1013" extended-state="7" />
+    <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18415707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966148" visible="true" weight="0.45175937" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966148" weight="0.45175937" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952436" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -647,9 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test007/test02.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test007/test01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -688,6 +677,13 @@
             <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test007/test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
