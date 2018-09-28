@@ -1,0 +1,36 @@
+{
+  "Animals": {
+    "dogs": [
+      {
+        "name": "tom",
+        "age": 1
+      },
+      {
+        "name": "jack",
+        "age": 2
+      }
+    ],
+    "cats": [
+      {
+        "name": "john",
+        "sex": "male"
+      },
+      {
+        "name": "blues",
+        "sex": "female"
+      }
+    ]
+  },
+  "Planet": {
+    "flowers": [
+      {
+        "name": "rose",
+        "color": "red"
+      },
+      {
+        "name": "carnation",
+        "color": "white"
+      }
+    ]
+  }
+}
